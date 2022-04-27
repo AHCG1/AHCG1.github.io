@@ -81,11 +81,27 @@
 		
 		
 	    /**/
-	    *, *::before, *::after{
+*, *::before, *::after{
   -webkit-box-sizing:padding-box;
   box-sizing:padding-box;
 }
-		.tickerwrapper {
+
+body{
+  background:#CCC;
+}
+
+body,
+div,
+ul,
+li,
+p {
+  margin: 0;
+  padding: 0;
+  font-family: verdana;
+  font-size: 16pt;
+}
+
+.tickerwrapper {
   /* the outer div */
   
   position: relative;
@@ -125,6 +141,7 @@ ul.list li {
 	    
 	/**/ 
 	<script>
+		
 		var $tickerWrapper = $(".tickerwrapper");
 var $list = $tickerWrapper.find("ul.list");
 var $clonedList = $list.clone();
