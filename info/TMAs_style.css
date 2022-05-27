@@ -26,3 +26,10 @@ ul li {
   background: #3e3f46;
   padding: 15px;
 }
+
+@media screen and (max-width: 400px){
+  .efe {
+    width: 100%;
+    margin: 0px;
+  }
+}
