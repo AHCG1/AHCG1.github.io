@@ -37,6 +37,7 @@ nav a:hover{
 .box{
 	min-height: calc(200vh - 90px - 200px);  
 	margin: 10px;
+	text-color: #FFFFFF;
 }
 
 footer{
