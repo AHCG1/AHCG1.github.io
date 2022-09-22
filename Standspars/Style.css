@@ -19,7 +19,6 @@ body{
 }
 
 .content-box{
-    margin: 1px;
 }
 
 a{
@@ -35,6 +34,15 @@ nav a:hover{
     color: #858383;
 }
 
+.box{
+	min-height: calc(100vh - 90px - 200px);  
+	margin: 10px;
+}
+
+footer{
+	height: 200px;
+	background-color: #FFFFFF;
+}
 	
 @media screen and (max-width: 400px){
     header{
@@ -44,4 +52,29 @@ nav a:hover{
     nav{
         padding: 10px 0px;
     }
+    .content-box{
+	width: 100%;
+        margin: 0px;
+    }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
