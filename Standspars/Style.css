@@ -46,7 +46,12 @@ footer{
 	height: 200px;
 	background-color: #FFFFFF;
 	align-items: center;
+	display: flex;
 	font-family: Arial;
+}
+
+#copy{
+	margin: 10px;
 }
 /*
 .Outwach{
