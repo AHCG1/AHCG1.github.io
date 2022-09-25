@@ -65,20 +65,26 @@ footer{
 }
 
 
-
-.Outwach{
+/*Agrupar imagen a un lado y el texto al otro*/
+.text-and-image-left{
     display: flex;
     padding: 100px 140px;
     /*width: 100%;*/
 }
 
-.Outwach-img{
+.text-and-image-right{
+    display: flex;
+    padding: 100px 350px;
+    /*width: 100%;*/
+}
+
+.generic-confi-image{
     height: 350px;
     align-items: center;
     
 }
 
-.Outwach-con{
+.generic-confi-content{
     /*width: 100%;
     display: inline-block;
     vertical-align: top;*/
@@ -86,6 +92,7 @@ footer{
     padding: 0px 10px;
 }
 
+/*====================*/
 	
 @media screen and (max-width: 400px){
     header{
@@ -99,15 +106,18 @@ footer{
 	width: 100%;
         margin: 0px;
     }
-    .Outwach{
+    .text-and-image-left{
         display: flex;
         padding: 100px 0px;
     }
-    .Outwach-con{
+    .text-and-image-right{
+        display: flex;
+        padding: 100px 0px;
+    }
+    .generic-confi-content{
         padding: 10px 10px;
     }
-    .Outwach-img{
+    .generic-confi-image{
         height: 200px;
     }
 }
-
