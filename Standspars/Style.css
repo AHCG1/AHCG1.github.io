@@ -92,7 +92,7 @@ footer{
 }
 
 .generic-confi-image{
-    height: 850px;
+    height: 450px;
     align-items: center;
     
 }
@@ -134,3 +134,22 @@ footer{
         height: 200px;
     }
 }
+/**/
+@media screen and (max-width: 2000px){
+    .generic-confi-image{
+    	height: 850px;
+    }
+}
+/**/
+
+
+
+
+
+
+
+
+
+
+
+
