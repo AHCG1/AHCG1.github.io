@@ -1,0 +1,162 @@
+header {
+    display: flex;
+    min-height: 95px;
+    background-color: #000000;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.logotipeimg{
+    height: 75px;
+    align-items: center;
+}
+
+body{
+    margin: 0;
+    font-family: sans-serif;
+    background-image: linear-gradient(90deg, #3d4044 0, #17232f 50%, #00001c 100%);
+    /*
+    background-color: #3B3D4D;
+    */
+}
+
+.content-box{
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+    color: #FFFFFF;
+
+}
+nav a{
+    font-weight: 600;
+    padding-right: 10px;
+}
+nav a:hover{
+    color: #858383;
+}
+
+.box{
+    /*width: 100%;*/
+	min-height: calc(200vh - 90px - 200px);  
+	margin: 10px;
+	color: #FFFFFF;
+}
+
+footer{
+	height: 200px;
+    /*
+	background-color: #FFFFFF;
+    */
+    background-color: #3B3D4D;
+	align-items: center;
+	display: flex;
+	font-family: Georgia;
+}
+
+#copy{
+	margin: 10px;
+    color:#FFFFFF;
+}
+/*
+.Outwach{
+    display: 40%;
+    /*min-height: 95px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 0px;
+    width: 100%;
+}
+.Outwach-con{
+    flex-direction: column;
+}
+*/
+.need-space{
+    padding: 10px 0px;
+}
+
+
+/*Agrupar imagen a un lado y el texto al otro*/
+.text-and-image-left{
+    display: flex;
+    padding: 100px 140px;
+    /*width: 100%;*/
+}
+
+.text-and-image-right{
+    display: flex;
+    padding: 100px 350px;
+    /*width: 100%;*/
+}
+
+.generic-confi-image{
+    height: 100px;
+    align-items: center;
+    
+}
+
+.generic-confi-content{
+    /*width: 100%;
+    display: inline-block;
+    vertical-align: top;*/
+    flex-direction: column;
+    padding: 0px 10px;
+}
+
+/*====================*/
+	
+@media screen and (max-width: 850px){
+    header{
+        flex-direction: column;
+        /*height: 90px;*/
+    }
+    nav{
+        padding: 10px 0px;
+    }
+    .content-box{
+	width: 100%;
+        margin: 0px;
+    }
+    .text-and-image-left{
+        display: flex;
+        padding: 100px 0px;
+    }
+    .text-and-image-right{
+        display: flex;
+        padding: 100px 0px;
+    }
+    .generic-confi-content{
+        padding: 10px 10px;
+    }
+    .generic-confi-image{
+        height: 200px;
+    }
+}
+/**/
+@media screen and (min-width: 2000px){
+    .generic-confi-image{
+    	height: 850px;
+    }
+}
+
+/*Version 1.1*/
+@media screen and (min-width: 2560px){
+    .generic-confi-image{
+    	height: 1050px;
+    }
+    .text-and-image-left{
+        padding: 100px 327px;
+    }
+    .text-and-image-right{
+        padding: 100px 817px;
+    }
+    
+}
+/****/
+/**/
+
+.contact_info{
+    padding: 0% 25%;
+}
